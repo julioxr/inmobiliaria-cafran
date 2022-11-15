@@ -5,15 +5,17 @@ const Hero = () => {
     return (
         <>
             <section className="relative w-full h-[520px]">
+                {/* Container de imagen */}
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="https://img.freepik.com/fotos-premium/hogar-contemporaneo-patio-visto-patio_19485-33697.jpg?w=1380"
+                        src="https://images.pexels.com/photos/259593/pexels-photo-259593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         className="w-full h-full object-cover brightness-50 "
                     />
                 </div>
-                {/* Texto sobre video */}
+                {/* Container de texto sobre imagen */}
                 <div className="absolute inset-0 z-10">
-                    <div className="h-[400px] flex flex-col justify-between pt-14 px-8 ">
+                    {/* Texto sobre video */}
+                    <div className="h-[380px] flex flex-col justify-between pt-14 px-8 ">
                         <div>
                             <h1 className="font-bold text-[27px] text-white w-64 leading-8 pb-2">
                                 Una oportunidad para crecer
