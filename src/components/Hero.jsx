@@ -24,17 +24,17 @@ const Hero = () => {
                                 Hace realidad tu proyecto
                             </p>
                         </div>
-                        <h2 className="text-base text-white text-center pb-6">
+                        <h2 className="text-base text-white font-bold text-center pb-6">
                             ¿Qué estás buscando hoy?
                         </h2>
                     </div>
                     {/* Botones Venta y Alquiler */}
                     <div className="flex justify-center">
                         <button className="w-[150px] h-[53px] rounded-tl rounded-bl text-base bg-black text-white">
-                            Venta
+                            Vender
                         </button>
                         <button className="w-[150px] h-[53px] rounded-tr rounded-br text-base bg-cafranGray-semiDark text-white">
-                            Alquiler
+                            Alquilar
                         </button>
                     </div>
                     {/* Buscador */}
