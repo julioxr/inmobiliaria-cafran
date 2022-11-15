@@ -1,9 +1,12 @@
-import { useState } from "react";
+import Header from "./components/Header";
+import AppRouter from "./AppRouter";
 
 function App() {
     return (
-        <div className="">
-            <h1></h1>
+        <div className="font-primary">
+            {/* El header esta fijo durante todas las rutas */}
+            <Header />
+            <AppRouter />
         </div>
     );
 }

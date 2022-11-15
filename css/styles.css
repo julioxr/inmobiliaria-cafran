@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 /*
 ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
 */
@@ -419,7 +421,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -466,7 +468,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -513,7 +515,315 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-red-800 {
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.inset-0{
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.z-0{
+  z-index: 0;
+}
+
+.z-10{
+  z-index: 10;
+}
+
+.-z-10{
+  z-index: -10;
+}
+
+.z-50{
+  z-index: 50;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-\[53px\]{
+  height: 53px;
+}
+
+.h-\[90px\]{
+  height: 90px;
+}
+
+.h-\[520px\]{
+  height: 520px;
+}
+
+.h-\[400px\]{
+  height: 400px;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.w-\[300px\]{
+  width: 300px;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.w-36{
+  width: 9rem;
+}
+
+.w-64{
+  width: 16rem;
+}
+
+.w-\[150px\]{
+  width: 150px;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.rounded{
+  border-radius: 0.25rem;
+}
+
+.rounded-tl{
+  border-top-left-radius: 0.25rem;
+}
+
+.rounded-bl{
+  border-bottom-left-radius: 0.25rem;
+}
+
+.rounded-tr{
+  border-top-right-radius: 0.25rem;
+}
+
+.rounded-br{
+  border-bottom-right-radius: 0.25rem;
+}
+
+.bg-white{
   --tw-bg-opacity: 1;
-  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-cafranGray-semiDark{
+  --tw-bg-opacity: 1;
+  background-color: rgb(106 103 109 / var(--tw-bg-opacity));
+}
+
+.bg-slate-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.bg-cafranGray-semilight{
+  --tw-bg-opacity: 1;
+  background-color: rgb(195 194 197 / var(--tw-bg-opacity));
+}
+
+.bg-cafranGray-light{
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 225 226 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\.\.\/assets\/hogar\.png\'\)\]{
+  background-image: url('../assets/hogar.png');
+}
+
+.bg-\[url\(\'http\:\/\/localhost\:5173\/hogar\.png\'\)\]{
+  background-image: url('http://localhost:5173/hogar.png');
+}
+
+.bg-\[url\(\'http\:\/\/localhost\:5173\/assets\/hogar\.png\'\)\]{
+  background-image: url('http://localhost:5173/assets/hogar.png');
+}
+
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/fotos-premium\/hogar-contemporaneo-patio-visto-patio_19485-33697\.jpg\?w\=1380\'\)\]{
+  background-image: url('https://img.freepik.com/fotos-premium/hogar-contemporaneo-patio-visto-patio_19485-33697.jpg?w=1380');
+}
+
+.bg-gradient-to-l{
+  background-image: linear-gradient(to left, var(--tw-gradient-stops));
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-fixed{
+  background-attachment: fixed;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
+.object-contain{
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.p-4{
+  padding: 1rem;
+}
+
+.p-8{
+  padding: 2rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.pt-14{
+  padding-top: 3.5rem;
+}
+
+.pb-2{
+  padding-bottom: 0.5rem;
+}
+
+.pb-6{
+  padding-bottom: 1.5rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.font-primary{
+  font-family: Inter, sans-serif;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-\[27px\]{
+  font-size: 27px;
+}
+
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.leading-8{
+  line-height: 2rem;
+}
+
+.text-cafranGray-semiDark{
+  --tw-text-opacity: 1;
+  color: rgb(106 103 109 / var(--tw-text-opacity));
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.opacity-10{
+  opacity: 0.1;
+}
+
+.opacity-50{
+  opacity: 0.5;
+}
+
+.bg-blend-overlay{
+  background-blend-mode: overlay;
+}
+
+.mix-blend-normal{
+  mix-blend-mode: normal;
+}
+
+.mix-blend-overlay{
+  mix-blend-mode: overlay;
+}
+
+.mix-blend-color{
+  mix-blend-mode: color;
+}
+
+.brightness-50{
+  --tw-brightness: brightness(.5);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.brightness-100{
+  --tw-brightness: brightness(1);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.brightness-150{
+  --tw-brightness: brightness(1.5);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.brightness-200{
+  --tw-brightness: brightness(2);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.filter{
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:bg-gradient-to-r:hover{
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }

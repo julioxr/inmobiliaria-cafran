@@ -2,7 +2,24 @@
 module.exports = {
     content: ["./index.html", "./src/**/*.{js,jsx}"],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                cafranGray: {
+                    dark: "#4C4950",
+                    semiDark: "#6a676d",
+                    medium: "#88868a",
+                    semilight: "#c3c2c5",
+                    light: "#e1e1e2",
+                },
+                cafranMain: {
+                    main: "#0d735a",
+                    secondary: "#FF0000",
+                },
+            },
+            fontFamily: {
+                primary: ["Inter", "sans-serif"],
+            },
+        },
     },
     plugins: [],
 };
