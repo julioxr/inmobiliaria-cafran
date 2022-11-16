@@ -4,7 +4,7 @@ import SidebarMenu from "./components/SidebarMenu";
 
 function App() {
     return (
-        <div className="font-primary">
+        <div className="font-primary fixed">
             {/* El header esta fijo durante todas las rutas */}
             <SidebarMenu />
             <Header />

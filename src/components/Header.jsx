@@ -7,7 +7,7 @@ const Header = () => {
         <>
             <header className="flex justify-between items-center p-8 w-full h-[90px]">
                 <img src={logo} alt="logo-cafran" className="w-36" />
-                <RiMenuFill className="text-4xl" />
+                {/* <RiMenuFill className="text-4xl" /> */}
             </header>
         </>
     );
