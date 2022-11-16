@@ -4,7 +4,7 @@ const Lotes = () => {
     return (
         <>
             {/* Seccion de lotes */}
-            <section className="px-12 mt-10">
+            <section className="px-12 mt-10 h-[710px]">
                 {/* Titulo */}
                 <div className="flex justify-between">
                     <h2 className="font-bold text-4xl text-cafranGray-semiDark">
