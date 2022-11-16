@@ -20,7 +20,7 @@ const Hero = () => {
                             <h1 className="font-bold text-[27px] text-white w-64 leading-8 pb-2">
                                 Una oportunidad para crecer
                             </h1>
-                            <p className="text-sm text-white">
+                            <p className="text-[13px] text-white">
                                 Hace realidad tu proyecto
                             </p>
                         </div>
@@ -38,7 +38,7 @@ const Hero = () => {
                         </button>
                     </div>
                     {/* Buscador */}
-                    <Buscador className />
+                    <Buscador />
                 </div>
             </section>
         </>

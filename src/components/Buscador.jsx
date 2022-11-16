@@ -10,7 +10,7 @@ const Buscador = () => {
                     placeholder="Buscar por Localidad, Barrio, Calle..."
                 />
                 <div className="w-[300px] absolute">
-                    <RiSearchLine className="absolute right-0 rounded-tr rounded-br bg-cafranMain-secondary text-white h-[53px] w-[53px] p-4" />
+                    <RiSearchLine className="absolute right-0 rounded-tr rounded-br bg-cafranMain-secondary text-white h-[53px] w-[53px] p-4 cursor-pointer" />
                 </div>
             </form>
         </>
