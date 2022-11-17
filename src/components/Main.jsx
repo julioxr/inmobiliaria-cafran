@@ -6,6 +6,7 @@ const Main = () => {
         <>
             <Hero />
             <Lotes />
+            <div className="h-56"></div>
         </>
     );
 };
