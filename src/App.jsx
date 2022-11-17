@@ -10,7 +10,7 @@ function App() {
         setSidebarOpen(!sidebarOpen);
     };
     return (
-        <div className={`font-primary ${sidebarOpen ? "fixed" : ""}`}>
+        <div className={`font-primary ${sidebarOpen ? "fixed w-full" : ""}`}>
             {/* El header esta fijo durante todas las rutas */}
             <SidebarMenu
                 handleSidebar={handleSidebar}
