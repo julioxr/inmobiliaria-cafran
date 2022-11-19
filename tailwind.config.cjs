@@ -13,6 +13,7 @@ module.exports = {
                 },
                 cafranMain: {
                     main: "#0d735a",
+                    main2: "#63B99D",
                     secondary: "#FF0000",
                 },
             },
