@@ -4,7 +4,7 @@ import bxShield from "../assets/bx-shield.svg";
 import bxMessageDetail from "../assets/bx-message-detail.svg";
 import bxMedal from "../assets/bx-medal.svg";
 import bxStar from "../assets/bx-star.svg";
-import { RiArrowRightLine } from "react-icons/ri";
+import Contacto from "./Contacto";
 
 const Nosotros = () => {
     return (
@@ -101,20 +101,7 @@ const Nosotros = () => {
                     </div>
                 </div>
                 {/* Contacto */}
-                <div className="flex flex-col justify-center items-center">
-                    <h2 className="font-bold text-cafranGray-semiDark">
-                        ¿Qué estás esperando? Escribinos.
-                    </h2>
-                    <div className="flex items-center relative">
-                        <button
-                            type="button"
-                            className="text-white border border-cafranMain-secondary bg-cafranMain-secondary text-left pl-8 mb-2 font-normal rounded-md text-sm w-[157px] h-[43px] py-2.5 hover:bg-cafranMain-secondary/80 hover:border-cafranMain-secondary/80 cursor-pointer"
-                        >
-                            Tu mensaje
-                        </button>
-                        <RiArrowRightLine className="absolute right-6 text-xl mb-2 cursor-pointer" />
-                    </div>
-                </div>
+                <Contacto />
             </section>
         </>
     );

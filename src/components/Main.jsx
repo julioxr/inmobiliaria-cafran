@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Hero from "./Hero";
 import Lotes from "./Lotes";
 import Nosotros from "./Nosotros";
@@ -10,6 +11,7 @@ const Main = () => {
             <Lotes />
             <Propiedades />
             <Nosotros />
+            <Footer />
             <div className="h-80"></div>
         </>
     );
