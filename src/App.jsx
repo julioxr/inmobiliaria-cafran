@@ -2,6 +2,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import AppRouter from "./AppRouter";
 import SidebarMenu from "./components/SidebarMenu";
+import Footer from "./components/Footer";
 
 function App() {
     const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -17,7 +18,10 @@ function App() {
                 sidebarOpen={sidebarOpen}
             />
             <Header handleSidebar={handleSidebar} sidebarOpen={sidebarOpen} />
-            <AppRouter />
+            {/* Todas las rutas de la web */}
+            <AppRouter setSidebarOpen={setSidebarOpen} />
+            {/* Footer fijo */}
+            <Footer />
         </div>
     );
 }

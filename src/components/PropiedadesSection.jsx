@@ -1,9 +1,23 @@
-import React from "react";
+import { useEffect } from "react";
+import Filters from "./Filters";
+import BuscadorDeFiltros from "./BuscadorDeFiltros";
 
-const PropiedadesSection = () => {
+const PropiedadesSection = ({ setSidebarOpen }) => {
+    useEffect(() => {
+        setSidebarOpen(false);
+    }, []);
     return (
         <>
-            <h1>Propiedades Section</h1>
+            {/* Seccion de filtros */}
+            <div>
+                {/* Formulario de filtros */}
+                <form action="#">
+                    {/* Buscador */}
+                    <BuscadorDeFiltros />
+                    {/* Filtros */}
+                    <Filters />
+                </form>
+            </div>
         </>
     );
 };

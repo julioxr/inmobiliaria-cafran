@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import {
     RiFacebookCircleFill,
     RiInstagramFill,
@@ -18,10 +18,18 @@ const SidebarMenu = ({ sidebarOpen, handleSidebar }) => {
                 {/* Links */}
                 <div className="fixed z-30 bg-white w-2/3 h-full font-bold text-xl text-cafranGray-dark ">
                     <ul className="flex flex-col gap-5 justify-center ml-12 mt-40">
-                        <li className="cursor-pointer">Lotes</li>
-                        <li className="cursor-pointer">Propiedades</li>
-                        <li className="cursor-pointer">La empresa</li>
-                        <li className="cursor-pointer">Contacto</li>
+                        <li className="cursor-pointer">
+                            <NavLink to="/">Lotes</NavLink>
+                        </li>
+                        <li className="cursor-pointer">
+                            <NavLink to="/propiedades">Propiedades</NavLink>
+                        </li>
+                        <li className="cursor-pointer">
+                            <NavLink to="/">La empresa</NavLink>
+                        </li>
+                        <li className="cursor-pointer">
+                            <NavLink to="/">Contacto</NavLink>
+                        </li>
                         <div className="flex gap-2 text-cafranMain-main text-[26px]">
                             <RiFacebookCircleFill />
                             <RiInstagramFill />
