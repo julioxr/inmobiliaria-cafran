@@ -10,23 +10,23 @@ const Footer = () => {
     return (
         <>
             <footer className="h-[215px] bg-cafranGray-semiDark text-white  px-8">
-                <div className="flex justify-between items-start pt-8">
+                <div className="flex justify-between items-start pt-[52px]">
                     <div>
-                        <ul>
+                        <ul className="text-[14px] flex flex-col gap-[3px] mb-[34px]">
                             <li>Lotes</li>
                             <li>Propiedades</li>
                             <li>La empresa</li>
                             <li>Contacto</li>
                         </ul>
                     </div>
-                    <div className="flex gap-3">
-                        <RiFacebookCircleFill />
-                        <RiInstagramFill />
-                        <RiWhatsappFill />
-                        <RiMailFill />
+                    <div className="flex gap-[9px]">
+                        <RiFacebookCircleFill className="w-[30px] h-[30px]" />
+                        <RiInstagramFill className="w-[30px] h-[30px]" />
+                        <RiWhatsappFill className="w-[30px] h-[30px]" />
+                        <RiMailFill className="w-[30px] h-[30px]" />
                     </div>
                 </div>
-                <p>
+                <p className="text-[10px]  text-center">
                     © 2022 Anibal Marcelo Vera | Cafran negocios inmobiliarios
                 </p>
             </footer>

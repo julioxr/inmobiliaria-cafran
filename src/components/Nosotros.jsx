@@ -10,7 +10,7 @@ const Nosotros = () => {
     return (
         <>
             {/* Nosotros */}
-            <section className="w-full h-[1100px]">
+            <section className="w-full h-auto">
                 {/* Info sobre compañia */}
                 <div className=" px-8 ">
                     {/* Info principal */}
