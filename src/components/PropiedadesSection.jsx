@@ -4,6 +4,7 @@ import BuscadorDeFiltros from "./BuscadorDeFiltros";
 
 const PropiedadesSection = ({ setSidebarOpen }) => {
     useEffect(() => {
+        window.scrollTo(0, 0);
         setSidebarOpen(false);
     }, []);
     return (

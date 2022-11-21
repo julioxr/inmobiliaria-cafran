@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const CardDestacadaMediana = () => {
     return (
@@ -7,11 +8,13 @@ const CardDestacadaMediana = () => {
             <div className="w-[312px] h-auto rounded-md  shadow-md">
                 {/* Imagen */}
                 <div className="h-[250px]">
-                    <img
-                        src="https://images.pexels.com/photos/3555615/pexels-photo-3555615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                        alt="foto de tarjeta de propiedad"
-                        className="rounded-tl-md rounded-tr-md w-full h-full"
-                    />
+                    <NavLink to={"/features"}>
+                        <img
+                            src="https://images.pexels.com/photos/3555615/pexels-photo-3555615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="foto de tarjeta de propiedad"
+                            className="rounded-tl-md rounded-tr-md w-full h-full"
+                        />
+                    </NavLink>
                 </div>
                 {/* Botones */}
                 <div className="flex items-center text-center align-middle h-[38px]">
