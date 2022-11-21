@@ -5,7 +5,7 @@ import CardDestacada from "./CardDestacada";
 const Propiedades = () => {
     return (
         <>
-            <section className="h-[540px] w-full flex flex-col">
+            <section className="w-full flex flex-col">
                 {/* Titulo propiedades */}
                 <div className="bg-cafranGray-dark text-white rounded-tl-md rounded-bl-md h-[160px] w-[333px] flex flex-col justify-center items-end gap-2 self-end pr-8">
                     <h2 className="font-bold text-[32px] ">Propiedades</h2>
@@ -25,11 +25,11 @@ const Propiedades = () => {
                     </div>
                 </div>
                 {/* Propiedades destacadas */}
-                <div className="h-[302px] bg-cafranGray-light/25 bg-red-800 mt-5 mb-6">
-                    <h3 className="font-bold text-lg mt-5 text-center">
+                <div className="bg-cafranGray-light/25 mt-6 pb-6">
+                    <h3 className="font-bold text-lg mt-2 px-8 text-cafranGray-semiDark">
                         Propiedades destacadas
                     </h3>
-                    <div className="">
+                    <div className="mt-4">
                         <CardDestacada />
                     </div>
                 </div>

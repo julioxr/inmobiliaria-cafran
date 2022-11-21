@@ -6,7 +6,7 @@ import { RiArrowLeftLine, RiShareLine } from "react-icons/ri";
 
 const Features = () => {
     useEffect(() => {
-        // window.scrollTo(0, 0);
+        window.scrollTo(0, 0);
     }, []);
     return (
         <section>

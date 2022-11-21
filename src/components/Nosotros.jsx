@@ -10,35 +10,36 @@ const Nosotros = () => {
     return (
         <>
             {/* Nosotros */}
-            <section className="w-full h-auto">
+            <section className="w-full h-auto mt-6">
                 {/* Info sobre compañia */}
-                <div className=" px-8 ">
+                <div className="px-8">
                     {/* Info principal */}
-                    <h2 className="text-cafranGray-semiDark font-bold text-[34px]">
+                    <h2 className="text-cafranGray-dark font-bold text-[34px]">
                         Nosotros
                     </h2>
-                    <p className="text-[13px]">
+                    <p className="text-cafranGray-dark text-[13px]">
                         Acompañando sueños de viviendas desde ..... años. Nos
                         encontramos en la ciudad de Zárate, pero nuestros
                         negocios inmobiliarios abarcan las zonas de ....
                     </p>
                     {/* Destacado barra roja */}
-                    <div className="flex h-[30px] m-4 gap-3">
-                        <div className="border-solid border-l-4 border-cafranMain-secondary"></div>
+                    <div className="flex h-[45px] my-4 gap-3">
+                        <div className="border-solid border-l-[5px] border-cafranMain-secondary"></div>
                         <h3 className="font-semibold text-base text-cafranGray-semiDark">
                             La dedicación y profesionalismo que nos caracteriza
                             siempre.
                         </h3>
                     </div>
                     {/* Info secundaria */}
-                    <p className="text-[13px] text-cafranGray-dark font-light">
+                    <p className="text-[13px] mt-6 mb-4 text-cafranGray-dark font-light">
                         Adaptamos nuestra imagen a los requerimientos actuales,
                         combinando la identidad de siempre con la marca personal
                         Marcelo Anibal Vera.
                     </p>
                     {/* Logos */}
-                    <div className="flex">
+                    <div className="flex justify-center">
                         <img
+                            // ! El tamaño de la imagen tiene padding blancos
                             src={logoCorto}
                             alt="logo corto de anibal marcelo vera"
                         />
@@ -49,11 +50,11 @@ const Nosotros = () => {
                     </div>
                 </div>
                 {/* Elegir operaciones */}
-                <div className="h-[320px] w-[300px] mx-auto">
-                    <h2 className="text-cafranGray-semiDark font-semibold text-base mb-3">
+                <div className="h-auto w-[300px] mx-auto mt-4 mb-6">
+                    <h2 className="text-cafranGray-semiDark font-semibold text-base mb-6">
                         ¿Por qué elegirnos en tu operación?
                     </h2>
-                    <div className="flex flex-col justify-center items-center gap-3">
+                    <div className="flex flex-col justify-center items-center gap-3 text-cafranGray-dark">
                         <div className="flex gap-5 w-[241px]">
                             <img
                                 src={bxShield}

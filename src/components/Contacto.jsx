@@ -1,31 +1,37 @@
-import { RiArrowRightLine } from "react-icons/ri";
+import { RiArrowRightLine, RiWhatsappLine } from "react-icons/ri";
 
 const Contacto = () => {
     return (
         <>
+            {/* Boton de contacto */}
             <div className="flex flex-col justify-center items-center">
-                <h2 className="font-bold text-cafranGray-semiDark">
+                <h2 className="font-bold text-cafranGray-semiDark my-3">
                     ¿Qué estás esperando? Escribinos.
                 </h2>
-                <div className="flex items-center relative">
+                <div className="flex items-center relative mb-4">
                     <button
                         type="button"
-                        className="text-white border border-cafranMain-secondary bg-cafranMain-secondary text-left pl-8 mb-2 font-normal rounded-md text-sm w-[157px] h-[43px] py-2.5 hover:bg-cafranMain-secondary/80 hover:border-cafranMain-secondary/80 cursor-pointer"
+                        className="text-white border border-cafranMain-secondary bg-cafranMain-secondary text-left pl-10 mb-2 font-normal rounded-md text-sm w-[198px] h-[43px] py-2.5 hover:bg-cafranMain-secondary/80 hover:border-cafranMain-secondary/80 cursor-pointer"
                     >
                         Tu mensaje
                     </button>
-                    <RiArrowRightLine className="absolute right-6 text-xl mb-2 cursor-pointer" />
+                    <RiArrowRightLine className="absolute right-10 text-xl mb-2 cursor-pointer text-white" />
                 </div>
-                <div className="w-full h-[410px] relative">
-                    <div className="w-[311px] h-[115px] absolute rounded-md bg-[#0B4335]/90 text-white z-20 bottom-0">
-                        <h3>Contactanos:</h3>
-                        <p>Tel.: (03487) 437748 | 437707</p>
-                        <div>
-                            <span></span>
-                        </div>
-                        <div>
-                            <p>3489 634421 (Ventas)</p>
-                            <p>3487 455335 (Alquileres)</p>
+                {/* Mapa con datos de contacto encima */}
+                <div className="w-full h-[410px] relative flex justify-center items-center">
+                    <div className="w-[311px] h-[115px] absolute rounded-md bg-[#0B4335]/90 text-white z-20 bottom-2 py-2 px-4 font-semibold">
+                        <h3 className="text[17px]">Contactanos:</h3>
+                        <p className="text-[14px] pl-[60px]">
+                            Tel.: (03487) 437748 | 437707
+                        </p>
+                        <div className="flex items-start gap-2 pl-[80px]">
+                            <div>
+                                <RiWhatsappLine className="text-[18px]" />
+                            </div>
+                            <div className="text-[14px] font-light">
+                                <p>3489 634421 (Ventas)</p>
+                                <p>3487 455335 (Alquileres)</p>
+                            </div>
                         </div>
                     </div>
                     <iframe
