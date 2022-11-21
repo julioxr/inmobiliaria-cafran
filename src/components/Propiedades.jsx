@@ -29,7 +29,10 @@ const Propiedades = () => {
                     <h3 className="font-bold text-lg mt-2 px-8 text-cafranGray-semiDark">
                         Propiedades destacadas
                     </h3>
-                    <div className="mt-4">
+                    <div className="flex gap-4 mt-4 pl-8 pr-4 overflow-scroll">
+                        <CardDestacada />
+                        <CardDestacada />
+                        <CardDestacada />
                         <CardDestacada />
                     </div>
                 </div>

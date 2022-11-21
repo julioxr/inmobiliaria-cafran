@@ -4,7 +4,7 @@ const CardDestacada = () => {
     return (
         <>
             {/* Card chica vertical */}
-            <div className="w-[200px] h-[246px] rounded-md bg-white shadow-md ml-20">
+            <div className="w-[200px] h-[246px] rounded-md bg-white shadow-md shrink-0">
                 {/* Imagen */}
                 <div className="h-[150px]">
                     <img
@@ -25,7 +25,7 @@ const CardDestacada = () => {
                 {/* Descripcion */}
                 <footer className="text-[10px] pt-1 px-2 h-[65px] leading-3">
                     <p>
-                        <span className="font-semibold ">Departamento:</span>{" "}
+                        <span className="font-semibold ">Departamento:</span>
                         Excelente ubicación en el centro. Sup. Total 153m2 | 2
                         Dormitorios | 2 Baños | Cochera | Balcón.
                     </p>

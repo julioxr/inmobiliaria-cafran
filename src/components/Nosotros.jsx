@@ -14,7 +14,7 @@ const Nosotros = () => {
                 {/* Info sobre compañia */}
                 <div className="px-8">
                     {/* Info principal */}
-                    <h2 className="text-cafranGray-dark font-bold text-[34px]">
+                    <h2 className="text-cafranGray-semiDark/70 font-bold text-[34px]">
                         Nosotros
                     </h2>
                     <p className="text-cafranGray-dark text-[13px]">
@@ -50,7 +50,7 @@ const Nosotros = () => {
                     </div>
                 </div>
                 {/* Elegir operaciones */}
-                <div className="h-auto w-[300px] mx-auto mt-4 mb-6">
+                <div className="h-auto w-[300px] mx-auto mt-4 mb-4">
                     <h2 className="text-cafranGray-semiDark font-semibold text-base mb-6">
                         ¿Por qué elegirnos en tu operación?
                     </h2>

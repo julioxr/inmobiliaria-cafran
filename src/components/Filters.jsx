@@ -1,6 +1,5 @@
 import BotonFiltro from "./BotonFiltro";
 import { RiFilter2Line } from "react-icons/ri";
-import CardDestacadaMediana from "./CardDestacadaMediana";
 
 const Filters = () => {
     return (
@@ -35,12 +34,6 @@ const Filters = () => {
                 <span className="text-[10px] text-cafranMain-secondary mt-2">
                     Limpiar Filtros
                 </span>
-            </div>
-            <div className="flex flex-col gap-6 justify-center items-center mb-6">
-                <CardDestacadaMediana />
-                <CardDestacadaMediana />
-                <CardDestacadaMediana />
-                <CardDestacadaMediana />
             </div>
         </div>
     );

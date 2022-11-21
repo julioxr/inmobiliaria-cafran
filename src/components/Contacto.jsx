@@ -8,7 +8,7 @@ const Contacto = () => {
                 <h2 className="font-bold text-cafranGray-semiDark my-3">
                     ¿Qué estás esperando? Escribinos.
                 </h2>
-                <div className="flex items-center relative mb-4">
+                <div className="flex items-center relative mb-5">
                     <button
                         type="button"
                         className="text-white border border-cafranMain-secondary bg-cafranMain-secondary text-left pl-10 mb-2 font-normal rounded-md text-sm w-[198px] h-[43px] py-2.5 hover:bg-cafranMain-secondary/80 hover:border-cafranMain-secondary/80 cursor-pointer"

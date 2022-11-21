@@ -26,7 +26,7 @@ const CardDestacadaMediana = () => {
                     </p>
                 </div>
                 {/* Descripcion */}
-                <footer className="text-[13px] pt-2 pb-3 px-2 leading-3">
+                <footer className="text-[13px] pt-2 pb-3 px-2 leading-4">
                     <p>
                         <span className="font-semibold ">Departamento:</span>
                         Excelente ubicación en el centro. Sup. Total 153m2 | 2
