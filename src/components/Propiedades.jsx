@@ -30,10 +30,10 @@ const Propiedades = () => {
                         Propiedades destacadas
                     </h3>
                     <div className="flex gap-4 mt-4 pl-8 pr-4 overflow-scroll">
-                        <CardDestacada />
-                        <CardDestacada />
-                        <CardDestacada />
-                        <CardDestacada />
+                        <CardDestacada src="https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg?auto=compress&cs=tinysrgb&w=600" />
+                        <CardDestacada src="https://images.pexels.com/photos/187815/pexels-photo-187815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                        <CardDestacada src="https://images.pexels.com/photos/7475597/pexels-photo-7475597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                        <CardDestacada src="https://images.pexels.com/photos/5353946/pexels-photo-5353946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
                     </div>
                 </div>
                 {/* Barra separadora */}

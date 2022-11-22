@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const CardDestacadaMediana = () => {
+const CardDestacadaMediana = ({ src }) => {
     return (
         <>
             {/* Card chica vertical */}
@@ -10,7 +10,7 @@ const CardDestacadaMediana = () => {
                 <div className="h-[250px]">
                     <NavLink to={"/features"}>
                         <img
-                            src="https://images.pexels.com/photos/3555615/pexels-photo-3555615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            src={src}
                             alt="foto de tarjeta de propiedad"
                             className="rounded-tl-md rounded-tr-md w-full h-full"
                         />

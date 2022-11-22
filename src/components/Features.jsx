@@ -1,22 +1,23 @@
 import { useEffect } from "react";
+import { NavLink } from "react-router-dom";
 import sizeIcon from "../assets/size-icon.svg";
 import bedroomIcon from "../assets/bedroom-icon.svg";
 import bathIcon from "../assets/bath-icon.svg";
-import { RiArrowLeftLine, RiShareLine } from "react-icons/ri";
+import { RiArrowLeftLine, RiShareLine, RiWhatsappLine } from "react-icons/ri";
 
 const Features = () => {
     useEffect(() => {
-        window.scrollTo(0, 0);
+        // window.scrollTo(0, 0);
     }, []);
     return (
-        <section>
+        <section className="text-cafranGray-dark">
             {/* Nav */}
-            <div className="flex h-[40px] justify-between items-center px-8">
-                <div className="flex items-center">
-                    <RiArrowLeftLine />
-                    <p>Volver a propiedades</p>
+            <div className="flex h-[40px] text-cafranGray-semiDark items-center justify-between px-8">
+                <div className="flex items-center h-full">
+                    <RiArrowLeftLine className="text-base mr-2" />
+                    <p className="text-[12px]">Volver a propiedades</p>
                 </div>
-                <RiShareLine />
+                <RiShareLine className="text-xl" />
             </div>
             {/* Imagen con absolutes */}
             <div className="relative">
@@ -52,13 +53,20 @@ const Features = () => {
                         Codigo 25641
                     </p>
                 </div>
-                <div className="">
-                    <button>Contactar</button>
-                    <span className="">Icono wsp</span>
+                <div className="flex items-center relative">
+                    <NavLink to="">
+                        <button
+                            type="button"
+                            className="text-white border border-[#25D366] bg-[#25D366] text-left pl-8 mb-2 font-bold rounded-md text-sm w-[157px] h-[43px] py-2.5 hover:bg-[#25D366]/80 hover:border-[#25D366]/80 cursor-pointer"
+                        >
+                            Contactar
+                        </button>
+                    </NavLink>
+                    <RiWhatsappLine className="absolute  h-full right-5 text-2xl text-white mb-2 cursor-pointer" />
                 </div>
             </div>
             {/* Iconos descriptivos */}
-            <div className="flex px-8 h-[47px] gap-1">
+            <div className="flex mx-8 h-[47px] gap-1 border-cafranGray-semiDark/50 border-y-[1px]">
                 <div className="flex justify-center items-center w-1/3">
                     <img src={sizeIcon} alt="icono de medida" />
                     <p className="text-[10px] pl-2 text-cafranGray-dark">
@@ -81,9 +89,9 @@ const Features = () => {
                 </div>
             </div>
             {/* Descripcion */}
-            <article className="px-8 h-[245px] flex flex-col justify-center gap-3">
+            <article className="mx-8 py-2 h-auto flex flex-col justify-center border-cafranGray-semiDark/50 border-b-[1px]">
                 <h2 className="font-semibold text-base">Descripcion</h2>
-                <p className="font-light text-[13px] text-cafranGray-dark">
+                <p className="font-light text-[13px] pt-2 text-cafranGray-dark">
                     Departamento en Venta. Ubicado en el centro de la ciudad,
                     entre calles Justa Lima y Alte. Brown. Luminoso living con
                     amplias ventanas al balcón. El comedor está integrado a la
@@ -94,7 +102,7 @@ const Features = () => {
                 </p>
             </article>
             {/* Ficha tecnica */}
-            <article className="px-8 h-[283px] flex">
+            <article className="mx-8 py-2 h-auto flex border-cafranGray-semiDark/50 border-b-[1px]">
                 <h2 className="font-semibold text-base">Ficha</h2>
                 <div className="pl-[35px]">
                     <ul className="font-light text-[13px] text-cafranGray-dark">
@@ -115,15 +123,15 @@ const Features = () => {
                 </div>
             </article>
             {/* Caracteristicas */}
-            <article className="h-[71px] px-8">
+            <article className="h-auto py-2 mx-8 border-cafranGray-semiDark/50 border-b-[1px]">
                 <h2 className="font-semibold text-base">Características</h2>
-                <ul className="flex font-light text-[13px] justify-between text-cafranGray-dark">
+                <ul className="flex font-light text-[13px] justify-between pt-2 text-cafranGray-dark">
                     <li>Tipo de edificio: Torre</li>
                     <li>Estado: Muy bueno</li>
                 </ul>
             </article>
             {/* Servicios */}
-            <article className="h-[99px] px-8">
+            <article className="h-auto py-2 mx-8 border-cafranGray-semiDark/50 border-b-[1px]">
                 <h2 className="font-semibold text-base">Servicios</h2>
                 <ul className="flex flex-wrap gap-y-1 font-light text-[13px] pt-2 text-cafranGray-dark">
                     <li className="w-1/3">Agua corriente</li>
@@ -135,8 +143,8 @@ const Features = () => {
                 </ul>
             </article>
             {/* Ubicacion */}
-            <article className="px-8 ">
-                <div className="flex justify-between h-[40px]">
+            <article className="mx-8">
+                <div className="flex justify-between h-[40px] pt-2">
                     <h2 className="font-semibold text-base">Ubicación</h2>
                     <h2 className="font-bold text-base">
                         Ituizango 689, Zarate
@@ -152,7 +160,7 @@ const Features = () => {
             </article>
             {/* Contacto */}
             <div className="flex flex-col justify-center items-center gap-y-3 h-[112px]">
-                <h2>¿Te ha gustado esta propiedad?</h2>
+                <h2 className="text-[18px]">¿Te ha gustado esta propiedad?</h2>
                 <div>
                     <button>Contactanos </button>
                     <span>flecha</span>

@@ -5,7 +5,7 @@ import CardDestacadaMediana from "./CardDestacadaMediana";
 
 const PropiedadesSection = ({ setSidebarOpen }) => {
     useEffect(() => {
-        // window.scrollTo(0, 0);
+        window.scrollTo(0, 0);
         setSidebarOpen(false);
     }, []);
     return (
@@ -20,10 +20,13 @@ const PropiedadesSection = ({ setSidebarOpen }) => {
                     <Filters />
                 </form>
                 <div className="flex flex-col gap-6 justify-center items-center mb-8">
-                    <CardDestacadaMediana />
-                    <CardDestacadaMediana />
-                    <CardDestacadaMediana />
-                    <CardDestacadaMediana />
+                    <CardDestacadaMediana src="https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg?auto=compress&cs=tinysrgb&w=600" />
+
+                    <CardDestacadaMediana src="https://images.pexels.com/photos/187815/pexels-photo-187815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+
+                    <CardDestacadaMediana src="https://images.pexels.com/photos/7475597/pexels-photo-7475597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+
+                    <CardDestacadaMediana src="https://images.pexels.com/photos/5353946/pexels-photo-5353946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
                 </div>
                 <div className="flex items-center justify-center mb-8">
                     <button
