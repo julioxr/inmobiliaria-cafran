@@ -562,6 +562,18 @@ video {
   bottom: 0px;
 }
 
+.bottom-\[10px\]{
+  bottom: 10px;
+}
+
+.right-12{
+  right: 3rem;
+}
+
+.right-6{
+  right: 1.5rem;
+}
+
 .left-0{
   left: 0px;
 }
@@ -582,16 +594,12 @@ video {
   top: 27px;
 }
 
-.bottom-\[10px\]{
-  bottom: 10px;
+.top-2{
+  top: 0.5rem;
 }
 
-.right-12{
-  right: 3rem;
-}
-
-.right-6{
-  right: 1.5rem;
+.top-4{
+  top: 1rem;
 }
 
 .z-20{
@@ -602,16 +610,16 @@ video {
   z-index: 10;
 }
 
-.z-30{
-  z-index: 30;
+.z-0{
+  z-index: 0;
 }
 
 .-z-10{
   z-index: -10;
 }
 
-.z-0{
-  z-index: 0;
+.z-30{
+  z-index: 30;
 }
 
 .my-3{
@@ -684,14 +692,6 @@ video {
   margin-bottom: 34px;
 }
 
-.ml-12{
-  margin-left: 3rem;
-}
-
-.mt-40{
-  margin-top: 10rem;
-}
-
 .mt-10{
   margin-top: 2.5rem;
 }
@@ -718,6 +718,14 @@ video {
 
 .mb-8{
   margin-bottom: 2rem;
+}
+
+.ml-12{
+  margin-left: 3rem;
+}
+
+.mt-40{
+  margin-top: 10rem;
 }
 
 .inline-block{
@@ -816,6 +824,10 @@ video {
   height: 215px;
 }
 
+.h-56{
+  height: 14rem;
+}
+
 .h-\[90px\]{
   height: 90px;
 }
@@ -846,6 +858,14 @@ video {
 
 .h-\[160px\]{
   height: 160px;
+}
+
+.h-\[48px\]{
+  height: 48px;
+}
+
+.h-\[153px\]{
+  height: 153px;
 }
 
 .w-full{
@@ -912,10 +932,6 @@ video {
   width: 30px;
 }
 
-.w-2\/3{
-  width: 66.666667%;
-}
-
 .w-36{
   width: 9rem;
 }
@@ -962,6 +978,14 @@ video {
 
 .w-\[192px\]{
   width: 192px;
+}
+
+.w-2\/3{
+  width: 66.666667%;
+}
+
+.w-auto{
+  width: auto;
 }
 
 .shrink-0{
@@ -1024,12 +1048,12 @@ video {
   gap: 9px;
 }
 
-.gap-5{
-  gap: 1.25rem;
-}
-
 .gap-3{
   gap: 0.75rem;
+}
+
+.gap-5{
+  gap: 1.25rem;
 }
 
 .gap-4{
@@ -1042,6 +1066,10 @@ video {
 
 .gap-y-3{
   row-gap: 0.75rem;
+}
+
+.gap-y-6{
+  row-gap: 1.5rem;
 }
 
 .self-end{
@@ -1100,6 +1128,10 @@ video {
   border-width: 1px;
 }
 
+.border-\[3px\]{
+  border-width: 3px;
+}
+
 .border-y-\[1px\]{
   border-top-width: 1px;
   border-bottom-width: 1px;
@@ -1153,6 +1185,10 @@ video {
   border-color: rgb(13 115 90 / var(--tw-border-opacity));
 }
 
+.border-cafranGray-dark\/50{
+  border-color: rgb(76 73 80 / 0.5);
+}
+
 .border-b-cafranGray-semiDark{
   --tw-border-opacity: 1;
   border-bottom-color: rgb(106 103 109 / var(--tw-border-opacity));
@@ -1187,9 +1223,14 @@ video {
   background-color: rgb(37 211 102 / var(--tw-bg-opacity));
 }
 
-.bg-cafranGray-dark{
+.bg-slate-500{
   --tw-bg-opacity: 1;
-  background-color: rgb(76 73 80 / var(--tw-bg-opacity));
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.bg-fuchsia-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 232 255 / var(--tw-bg-opacity));
 }
 
 .bg-black{
@@ -1200,6 +1241,11 @@ video {
 .bg-cafranMain-main{
   --tw-bg-opacity: 1;
   background-color: rgb(13 115 90 / var(--tw-bg-opacity));
+}
+
+.bg-cafranGray-dark{
+  --tw-bg-opacity: 1;
+  background-color: rgb(76 73 80 / var(--tw-bg-opacity));
 }
 
 .bg-cafranGray-light\/25{
@@ -1265,6 +1311,16 @@ video {
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .pl-1{
@@ -1339,6 +1395,22 @@ video {
   padding-right: 1rem;
 }
 
+.pt-5{
+  padding-top: 1.25rem;
+}
+
+.pt-8{
+  padding-top: 2rem;
+}
+
+.pt-16{
+  padding-top: 4rem;
+}
+
+.pb-8{
+  padding-bottom: 2rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -1404,14 +1476,6 @@ video {
   line-height: 2rem;
 }
 
-.text-\[26px\]{
-  font-size: 26px;
-}
-
-.text-\[37px\]{
-  font-size: 37px;
-}
-
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1440,6 +1504,14 @@ video {
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-\[26px\]{
+  font-size: 26px;
+}
+
+.text-\[37px\]{
+  font-size: 37px;
 }
 
 .font-normal{
@@ -1507,13 +1579,13 @@ video {
   color: rgb(255 0 0 / var(--tw-text-opacity));
 }
 
+.text-cafranGray-semiDark\/70{
+  color: rgb(106 103 109 / 0.7);
+}
+
 .text-cafranMain-main{
   --tw-text-opacity: 1;
   color: rgb(13 115 90 / var(--tw-text-opacity));
-}
-
-.text-cafranGray-semiDark\/70{
-  color: rgb(106 103 109 / 0.7);
 }
 
 .opacity-0{
@@ -1569,6 +1641,16 @@ video {
 
 .map {
   filter: grayscale(100%);
+}
+
+.backdrop\:py-2\.5::backdrop{
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.backdrop\:py-2::backdrop{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .hover\:border-cafranMain-secondary\/80:hover{
