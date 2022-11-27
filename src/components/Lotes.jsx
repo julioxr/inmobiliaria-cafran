@@ -12,8 +12,8 @@ const Lotes = () => {
                     </h2>
                     <div className="border-solid border-r-2 border-cafranGray-semilight/50"></div>
                     <p className="w-[135px] text-cafranGray-dark text-[13px] leading-4">
-                        Encontrá el lugar ideal para tu vivienda permanente o de
-                        fin de semana.
+                        Encontrá el lugar ideal agafafsafd para tu vivienda
+                        permanente o de fin de semana.
                     </p>
                 </div>
                 {/* Separador */}

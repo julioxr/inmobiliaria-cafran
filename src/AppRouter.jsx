@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Main from "./components/Main";
 import PropiedadesSection from "./components/PropiedadesSection";
 import Features from "./components/Features";
+import Formulario from "./components/Formulario";
 
 const AppRouter = ({ setSidebarOpen }) => {
     return (
@@ -15,6 +16,7 @@ const AppRouter = ({ setSidebarOpen }) => {
                     }
                 />
                 <Route path="/features" element={<Features />} />
+                <Route path="/form" element={<Formulario />} />
             </Routes>
         </>
     );
