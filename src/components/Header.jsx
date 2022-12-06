@@ -3,6 +3,7 @@ import NavBarLinks from "./NavBarLinks.jsx";
 import logo from "../assets/logo-cafran.svg";
 import logoLargoAnibal from "../assets/logo-largo-anibal.svg";
 import { RiMenu3Line } from "react-icons/ri";
+import ellipse39 from "../assets/ellipse39.svg";
 
 const Header = ({ handleSidebar, sidebarOpen }) => {
     return (
@@ -13,23 +14,29 @@ const Header = ({ handleSidebar, sidebarOpen }) => {
                         <img
                             src={logo}
                             alt="logo-cafran"
-                            className="h-[34px] cursor-pointer lg:h-[30px] lg:pr-4"
+                            className="h-[34px] cursor-pointer sm:pr-4 lg:h-[30px]"
                         />
-                        <div className="hidden h-10 border-[1px] border-solid border-cafranMain-main lg:block"></div>
+                        <img
+                            src={ellipse39}
+                            alt=""
+                            className="hidden sm:block"
+                        />
                         <img
                             src={logoLargoAnibal}
                             alt="logo-anibal"
-                            className="hidden h-[74px] lg:block"
+                            className="hidden h-[74px] sm:block"
                         />
                     </div>
                 </NavLink>
 
+                {/* Links de navbar */}
                 <NavBarLinks />
 
+                {/* Menu hamburguesa */}
                 <RiMenu3Line
                     className={`cursor-pointer text-4xl text-cafranGray-semiDark transition-all duration-500 ${
                         sidebarOpen ? "opacity-0" : "opacity-100"
-                    } lg:hidden`}
+                    } xl:hidden`}
                     onClick={handleSidebar}
                 />
             </header>
