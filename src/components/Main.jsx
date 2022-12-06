@@ -1,13 +1,13 @@
-import Hero from "./Hero";
-import Lotes from "./Lotes";
+import MainHero from "./MainHero";
+import MainLotes from "./MainLotes";
 import Nosotros from "./Nosotros";
 import Propiedades from "./Propiedades";
 
 const Main = () => {
     return (
         <>
-            <Hero />
-            <Lotes />
+            <MainHero />
+            <MainLotes />
             <Propiedades />
             <Nosotros />
         </>

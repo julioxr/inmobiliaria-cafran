@@ -10,6 +10,7 @@ const Header = ({ handleSidebar, sidebarOpen }) => {
         <>
             <header className="flex h-[90px] w-full items-center justify-between p-8 shadow-md shadow-cafranGray-semilight/10 lg:px-[96px] ">
                 <NavLink to={"/"}>
+                    {/* logos del header */}
                     <div className="flex items-center justify-center gap-4">
                         <img
                             src={logo}
@@ -29,7 +30,7 @@ const Header = ({ handleSidebar, sidebarOpen }) => {
                     </div>
                 </NavLink>
 
-                {/* Links de navbar */}
+                {/* Links de navbar solo desde lg */}
                 <NavBarLinks />
 
                 {/* Menu hamburguesa */}
