@@ -7,18 +7,19 @@ import { RiMenu3Line } from "react-icons/ri";
 const Header = ({ handleSidebar, sidebarOpen }) => {
     return (
         <>
-            <header className="flex justify-between items-center p-8 w-full h-[90px] shadow-md shadow-cafranGray-semilight/10">
+            <header className="flex h-[90px] w-full items-center justify-between p-8 shadow-md shadow-cafranGray-semilight/10 lg:px-[96px] ">
                 <NavLink to={"/"}>
-                    <div className="flex">
+                    <div className="flex items-center justify-center gap-4">
                         <img
                             src={logo}
                             alt="logo-cafran"
-                            className="w-36 cursor-pointer"
+                            className="h-[34px] cursor-pointer lg:h-[30px] lg:pr-4"
                         />
+                        <div className="hidden h-10 border-[1px] border-solid border-cafranMain-main lg:block"></div>
                         <img
                             src={logoLargoAnibal}
                             alt="logo-anibal"
-                            className="hidden md:block"
+                            className="hidden h-[74px] lg:block"
                         />
                     </div>
                 </NavLink>
@@ -26,9 +27,9 @@ const Header = ({ handleSidebar, sidebarOpen }) => {
                 <NavBarLinks />
 
                 <RiMenu3Line
-                    className={`text-4xl cursor-pointer text-cafranGray-semiDark transition-all duration-500 ${
+                    className={`cursor-pointer text-4xl text-cafranGray-semiDark transition-all duration-500 ${
                         sidebarOpen ? "opacity-0" : "opacity-100"
-                    } md:hidden`}
+                    } lg:hidden`}
                     onClick={handleSidebar}
                 />
             </header>

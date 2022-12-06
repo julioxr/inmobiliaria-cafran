@@ -1,39 +1,40 @@
 import React from "react";
 import Buscador from "./Buscador";
+import casa1 from "../assets/img/casa1.jpg";
 
 const Hero = () => {
     return (
         <>
-            <section className="relative w-full h-[520px]">
+            <section className="relative h-[520px] w-full lg:h-[calc(100vh-90px)]">
                 {/* Container de imagen */}
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="https://images.pexels.com/photos/259593/pexels-photo-259593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                        className="w-full h-full object-cover brightness-50 "
+                        src={casa1}
+                        className="h-full w-full object-cover brightness-50 "
                     />
                 </div>
                 {/* Container de texto sobre imagen */}
                 <div className="absolute inset-0 z-10">
                     {/* Texto sobre video */}
-                    <div className="h-[380px] flex flex-col justify-between pt-14 px-8 ">
+                    <div className="mb-[183px] h-auto px-8 pt-14 lg:mb-[300px] lg:px-32 lg:pt-28 ">
                         <div>
-                            <h1 className="font-bold text-[27px] text-white w-64 leading-8 pb-2">
+                            <h1 className="w-64 pb-2 text-[27px] font-bold leading-8 text-white  lg:w-[498px] lg:text-[60px] lg:leading-[72px]">
                                 Una oportunidad para crecer
                             </h1>
-                            <p className="text-[13px] text-white">
+                            <p className="text-[13px] text-white lg:text-xl lg:font-semibold lg:leading-[24px]">
                                 Hace realidad tu proyecto
                             </p>
                         </div>
-                        <h2 className="text-base text-white font-bold text-center pb-6">
-                            ¿Qué estás buscando hoy?
-                        </h2>
                     </div>
                     {/* Botones Venta y Alquiler */}
+                    <h2 className="pb-6 text-center text-base font-bold text-white lg:text-2xl">
+                        ¿Qué estás buscando hoy?
+                    </h2>
                     <div className="flex justify-center">
-                        <button className="w-[150px] h-[53px] rounded-tl rounded-bl text-base bg-black text-white">
+                        <button className="h-[53px] w-[150px] rounded-tl rounded-bl  bg-black text-base text-white lg:h-[50px] lg:w-[211px] lg:text-[18px] lg:font-medium">
                             Vender
                         </button>
-                        <button className="w-[150px] h-[53px] rounded-tr rounded-br text-base bg-cafranGray-semiDark text-white">
+                        <button className="h-[53px] w-[150px] rounded-tr rounded-br bg-cafranGray-semiDark text-base text-white lg:h-[50px] lg:w-[211px] lg:text-[18px] lg:font-medium">
                             Alquilar
                         </button>
                     </div>

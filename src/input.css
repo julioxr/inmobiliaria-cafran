@@ -6,6 +6,19 @@
 
 * {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #0d735a;
 }
 
 .map {
