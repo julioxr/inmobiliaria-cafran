@@ -5,7 +5,7 @@ const SliderLotes = () => {
     return (
         <>
             {/*Hacer el alto flexible con flex*/}
-            <div className="relative -z-10 mt-6 h-[400px] sm:col-span-3 sm:row-span-2 sm:h-[574px] lg:h-[680px] xl:h-[1025px]">
+            <div className="relative -z-10 mt-6 h-[390px] rounded-bl-lg rounded-tl-lg sm:h-[574px] md:col-span-3 md:row-span-2 lg:h-[680px] xl:h-[1025px]">
                 {/* Foto carousel */}
                 <img
                     src={Lote}

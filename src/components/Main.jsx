@@ -1,14 +1,14 @@
 import MainHero from "./MainHero";
 import MainLotes from "./MainLotes";
 import Nosotros from "./Nosotros";
-import Propiedades from "./Propiedades";
+import MainPropiedades from "./MainPropiedades";
 
 const Main = () => {
     return (
         <>
             <MainHero />
             <MainLotes />
-            <Propiedades />
+            <MainPropiedades />
             <Nosotros />
         </>
     );
