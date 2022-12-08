@@ -5,7 +5,7 @@ const Buscador = () => {
         <>
             <form action="#" className="relative mt-2 flex justify-center">
                 <input
-                    className="h-[53px] w-[300px] rounded bg-white p-4 text-xs text-cafranGray-semiDark outline-none sm:w-[422px] lg:text-sm"
+                    className="h-[53px] w-[300px] rounded bg-white p-4 text-xs text-cafranGray-semiDark outline-none sm:w-[422px] sm:text-sm"
                     type="text"
                     placeholder="Buscar por Localidad, Barrio, Calle..."
                 />
