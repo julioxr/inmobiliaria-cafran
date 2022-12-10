@@ -1,3 +1,4 @@
+import BotonesArrows from "./lotes/BotonesArrows";
 import BotonesLotes from "./lotes/BotonesLotes";
 import DetallesLotes from "./lotes/DetallesLotes";
 import SliderLotes from "./lotes/SliderLotes";
@@ -8,7 +9,7 @@ const MainLotes = () => {
     return (
         <>
             {/* Seccion de lotes */}
-            <section className="mt-10 grid grid-cols-1 grid-rows-3 overflow-x-hidden pb-12 md:grid-cols-12 md:grid-rows-2">
+            <section className="relative mt-10 grid grid-cols-1 pb-12 md:grid-cols-12">
                 {/* Titulo */}
                 <TituloLotes />
                 {/* Sliders */}
@@ -16,9 +17,10 @@ const MainLotes = () => {
                 {/* Detalle de lote */}
                 <DetallesLotes />
                 {/* Botones de lote */}
-                {/*<BotonesLotes />*/}
+                <BotonesLotes />
                 {/* Separador */}
                 {/*<Separador />*/}
+                <BotonesArrows />
             </section>
         </>
     );
