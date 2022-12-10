@@ -9,7 +9,7 @@ const MainLotes = () => {
     return (
         <>
             {/* Seccion de lotes */}
-            <section className="relative mt-10 grid grid-cols-1 pb-12 md:grid-cols-12">
+            <section className="relative mt-10 grid grid-cols-1 pb-10 md:grid-cols-12">
                 {/* Titulo */}
                 <TituloLotes />
                 {/* Sliders */}
