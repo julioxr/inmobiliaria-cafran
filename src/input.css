@@ -25,3 +25,29 @@
 .map {
     filter: grayscale(100%);
 }
+
+@media (min-width: 1280px) {
+    .lgGradient {
+        background: rgb(76, 73, 80);
+        background: linear-gradient(
+            135deg,
+            rgba(76, 73, 80, 1) 0%,
+            rgba(76, 73, 80, 1) 50%,
+            rgba(106, 103, 109, 1) 50%,
+            rgba(106, 103, 109, 1) 100%
+        );
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .mdGradient {
+        background: rgb(76, 73, 80);
+        background: linear-gradient(
+            135deg,
+            rgba(76, 73, 80, 1) 0%,
+            rgba(76, 73, 80, 1) 65%,
+            rgba(106, 103, 109, 1) 65%,
+            rgba(106, 103, 109, 1) 100%
+        );
+    }
+}
