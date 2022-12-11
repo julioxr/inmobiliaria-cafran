@@ -4,10 +4,11 @@ import FooterCardPropiedades from "./card/FooterCardPropiedades";
 import ImagenCardPropiedades from "./card/ImagenCardPropiedades";
 
 const CardChicaPropiedades = ({ src }) => {
+    // w-[215px] md:max-w-[393px]
     return (
         <>
             {/* Card chica vertical */}
-            <div className="h-[246px] w-[200px] shrink-0 rounded-md bg-white shadow-md">
+            <div className="mb-4 h-[260px] min-w-[215px] rounded-md bg-white shadow-md md:h-[354px] md:max-w-[393px]">
                 {/* Imagen */}
                 <ImagenCardPropiedades src={src} />
                 {/* Botones */}

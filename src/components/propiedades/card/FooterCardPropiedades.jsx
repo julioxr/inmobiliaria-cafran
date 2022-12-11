@@ -1,12 +1,13 @@
 import React from "react";
 
 const FooterCardPropiedades = () => {
+    //Ubicado en el casco antiguo de la Florida.Sup. Total 1000m2, 3 Dormitorios, 3 Baños, Cochera, Quincho y pileta.
     return (
-        <footer className="h-[65px] px-2 pt-1 text-[10px] leading-3">
+        <footer className="text h-[69px] px-3 pt-2 text-xs leading-[15px] md:h-[83px] md:px-5 md:pt-3">
             <p>
-                <span className="font-semibold ">Departamento:</span>
-                Excelente ubicación en el centro. Sup. Total 153m2 | 2
-                Dormitorios | 2 Baños | Cochera | Balcón.
+                <span className="font-bold">Casa quinta: </span>
+                Ubicado en el casco antiguo de la Florida. Sup. Total 1000m2, 3
+                Dormitorios...
             </p>
         </footer>
     );
