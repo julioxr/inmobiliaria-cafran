@@ -19,6 +19,8 @@ const DestacadasPropiedades = () => {
                 <CardChicaPropiedades src="https://images.pexels.com/photos/5353946/pexels-photo-5353946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
                 <CardChicaPropiedades src="https://images.pexels.com/photos/3555615/pexels-photo-3555615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
                 <CardChicaPropiedades src="https://images.pexels.com/photos/919068/pexels-photo-919068.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                <CardChicaPropiedades src="https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                <CardChicaPropiedades src="https://images.pexels.com/photos/565324/pexels-photo-565324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
             </div>
 
             {/* Boton ver mas */}

@@ -8,12 +8,12 @@ const LogosNosotros = () => {
                 // ! El tamaño de la imagen tiene padding blancos
                 src={logoCorto}
                 alt="logo corto de anibal marcelo vera"
-                className="w-[116px] sm:w-[138px] md:w-[171px]"
+                className="w-[116px] sm:w-[138px] sm:pl-8 md:w-[171px]"
             />
             <img
                 src={logoCafran}
                 alt="logo de cafran inmobiliaria"
-                className="w-[155px] sm:w-[185px] md:w-[229px]"
+                className="w-[155px] sm:w-[185px] sm:pr-8 md:w-[229px]"
             />
         </div>
     );
